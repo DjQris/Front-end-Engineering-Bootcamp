@@ -46,6 +46,13 @@
   border: 0.0625rem solid hsl(220, 9%, 87%);
 }
 
+.search-bar:hover {
+  box-shadow: 0 46px 13px 0 rgba(208, 172, 221, 0),
+    0 29px 12px 0 rgba(208, 172, 221, 0.01),
+    0 16px 10px 0 rgba(208, 172, 221, 0.05),
+    0 7px 7px 0 rgba(208, 172, 221, 0.09), 0 2px 4px 0 rgba(208, 172, 221, 0.1);
+}
+
 .mic-cam {
   display: flex;
   flex-direction: row;
